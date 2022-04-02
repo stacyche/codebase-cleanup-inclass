@@ -8,6 +8,8 @@ import json
 from dotenv import load_dotenv
 import requests
 
+from app.utils import to_usd
+
 load_dotenv()
 
 ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
@@ -30,4 +32,4 @@ latest = tsd[latest_date]
 print(symbol)
 print(latest_date)
 print(latest['4a. close (USD)'])
-print('${:,.2f}'.format(float(latest['4a. close (USD)'])))
+print(to_usd(float(latest['4a. close (USD)'])))
