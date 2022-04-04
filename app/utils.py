@@ -14,20 +14,7 @@ def to_usd(my_price):
     return '${:,.2f}'.format(my_price)
 
 
-<<<<<<< Updated upstream
 
-
-
-if __name__ == "__main__":
-    #nesting code in the main condition will allow other scripts to cleanly import 
-    #... without running this code 
-    
-    # if this code is in the global scope of a file we're trying to import from
-    #... it will throw errors when we try to run those 
-    price = input("Please choose a price like 4.999")
-
-    price(to_usd(float(price)))
-=======
 if __name__ == "__main__": 
     # nesting code in the main condition will 
     # allow other scripts to cleanly import functions from this file 
@@ -37,4 +24,4 @@ if __name__ == "__main__":
     price = input("Please choose a price like 4.9999")
 
     print(to_usd(float(price)))
->>>>>>> Stashed changes
+
