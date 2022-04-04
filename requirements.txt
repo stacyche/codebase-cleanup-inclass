@@ -20,5 +20,5 @@ pandas
 #kaleido # for chart exports
 
 # quality control / code mgmt:
-#pytest
+pytest
 #autopep8
