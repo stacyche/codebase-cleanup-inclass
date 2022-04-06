@@ -44,7 +44,7 @@ for p in products:
     all_prices.append(float(p["price"]))
 
 import statistics
-avg_price = statistics.median(all_prices)
+avg_price = statistics.mean(all_prices)
 
 print("---------")
 print("AVERAGE PRICE:", to_usd(avg_price))
