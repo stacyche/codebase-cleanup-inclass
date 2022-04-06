@@ -23,4 +23,3 @@ if __name__ == "__main__":
 
     print(to_usd(float(price)))
 
-to_usd
