@@ -68,3 +68,11 @@ Run the crypto report:
 #python app/crypto.py
 python -m app.crypto
 '''
+
+
+Run the unemployment chart: 
+
+'''sh 
+#python app/unemployment.py
+python -m app.unemployment
+'''
