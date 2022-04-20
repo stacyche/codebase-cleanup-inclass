@@ -14,8 +14,6 @@ def to_usd(my_price):
     return '${:,.2f}'.format(my_price)
 
 
-
-
 if __name__ == "__main__": 
     # nesting code in the main condition will 
     # allow other scripts to cleanly import functions from this file 
